@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/linearLayout1">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="127.0dp"
+        android:id="@+id/relativeLayout1"
+        android:background="#545454">
+        <TextView
+            android:text="Please click this link to show Name and Address"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColorLink="#b3b3b3"
+            android:textColor="#4169E1" />
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="GO"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="418.5dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginBottom="302.5dp"
+        android:background="#D3D3D3">
+        <TextView
+            android:text="Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="34.0dp"
+            android:id="@+id/textView2"
+            android:textColor="#000000" />
+        <TextView
+            android:text="Address:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="34.0dp"
+            android:id="@+id/textView4"
+            android:layout_marginTop="80dp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+</LinearLayout>
